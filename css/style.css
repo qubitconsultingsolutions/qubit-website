@@ -1124,3 +1124,37 @@ section {
     text-align: center;
   }
 }
+
+/* ===== LEGAL PAGES ===== */
+.legal-page {
+  padding: 8rem 0 4rem;
+  min-height: 60vh;
+}
+
+.legal-page h1 {
+  font-size: 2.4rem;
+  margin-bottom: 2rem;
+  color: var(--color-dark);
+}
+
+.legal-page h2 {
+  font-size: 1.3rem;
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+  color: var(--color-dark);
+}
+
+.legal-page p,
+.legal-page li {
+  line-height: 1.8;
+  color: var(--color-muted);
+}
+
+.legal-page ul {
+  padding-left: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.legal-page a {
+  color: var(--color-accent);
+}
